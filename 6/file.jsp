@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>JSP include with parameters example</title>
+</head>
+<body>
+<%=request.getParameter("firstname")%><br/>
+ <%=request.getParameter("middlename")%><br/>
+    <%=request.getParameter("lastname")%><br/>
+</body>
+</html>
